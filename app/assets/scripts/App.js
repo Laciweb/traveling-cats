@@ -1,1 +1,1 @@
-alert("whattt?")
+import'../styles/styles.css'
