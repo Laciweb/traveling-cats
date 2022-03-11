@@ -1,6 +1,6 @@
 .row {
 
-    @mixin clearfix;
+    @mixin clearfix{
   
     &--gutters {
       margin-right: -65px;
@@ -22,7 +22,7 @@
 
     margin-bottom: 1rem;
 }
-
+    }
 
     @mixin atMedium {
 
