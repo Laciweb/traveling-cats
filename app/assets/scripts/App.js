@@ -1,15 +1,8 @@
 import '../styles/styles.css'
-import Person from './modules/Person';
+import MobileMenu from './modules/MobilMenu'
+
+let mobileMenu = new MobileMenu();
 
 if (module.hot) {
   module.hot.accept()
 }
-
-/*test code starts*/
-
-
-
-var John = new Person("John Doe","purple");
-John.greet();
-var Jane = new Person("Jane Jen","red");
-Jane.greet(); 
